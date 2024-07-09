@@ -4,10 +4,16 @@
   "description": "Unit tests for bootcamp functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:isFromBellville": "mocha test/isFromBellville.test.js",
+    "test:greet": "mocha test/greet.test.js",
+    "test:isWeekday": "mocha test/isWeekday.test.js",
+    "test:countAllPaarl": "mocha test/countAllPaarl.test.js",
+    "test:countAllFromTown": "mocha test/countAllFromTown.test.js",
+    "test:totalPhoneBill": "mocha test/totalPhoneBill.test.js"
   },
   "devDependencies": {
-    "chai": "^4.4.1",
-    "mocha": "^9.2.2"
+    "mocha": "^9.0.0",
+    "chai": "^4.3.4"
   }
 }
